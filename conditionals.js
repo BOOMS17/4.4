@@ -17,6 +17,11 @@ button.addEventListener("click", function() {
     
     // 4. Write an else statement that displays the other message if the user types in a different state.
 
+    if (state.toLowerCase() === 'california') {californiaMessage.style.display = 'block'}
+    else if (state === "Illinois") {illinoisMessage.style.display = 'block'}
+    else if (state === 'New York') {newyorkMessage.style.display = 'block'}
+    else {other.style.display = 'block'}
+
 
 });
 
